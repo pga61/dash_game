@@ -8,7 +8,7 @@ import '../doodle_dash.dart';
 
 // It won't be a detailed section of the codelab, as its not Flame specific
 class LevelManager extends Component with HasGameRef<DoodleDash> {
-  LevelManager({this.selectedLevel = 5, this.level = 1});
+  LevelManager({this.selectedLevel = 1, this.level = 1});
 
   int selectedLevel; // level that the player selects at the beginning
   int level; // current level
