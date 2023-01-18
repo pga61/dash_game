@@ -1,0 +1,19 @@
+[[plugins]]
+
+  package = "netlify-plugin-flutter"
+
+   [plugins.inputs]
+    channel = "stable"
+
+[build]
+command = "flutter build web --release"
+
+# The relative path to the directory to be published
+publish = "build/web"
+
+# The following redirect is intended for use with most SPAs that handle
+# routing internally.
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
