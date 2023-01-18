@@ -104,7 +104,7 @@ class Player extends SpriteGroupComponent<PlayerState>
 
     // During development, it's useful to "cheat"
     if (keysPressed.contains(LogicalKeyboardKey.arrowUp)) {
-      jump();
+      // jump();
     }
     return true;
   }
